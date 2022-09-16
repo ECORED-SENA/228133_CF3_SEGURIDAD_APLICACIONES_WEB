@@ -11,14 +11,14 @@
       .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img01.png")
       .col-md-8
-        p Es un documento que recoge un conjunto de tareas necesarias para la consecución de una acción u objetivo concreto. Antes de llevar a cabo la tarea de planificar un proyecto, es conveniente hacer un plan de actividades, en el cual se contemplará lo necesario que lleve a organizar las pruebas de seguridad de una aplicación web con base en la guía Owasp (#[i Open Web Application Security Project]).
+        p Es un documento que recoge un conjunto de tareas necesarias para la consecución de una acción u objetivo concreto. Antes de llevar a cabo la tarea de planificar un proyecto, es conveniente hacer un plan de actividades, en el cual se contemplará lo necesario que lleve a organizar las pruebas de seguridad de una aplicación #[i web] con base en la guía Owasp (#[i Open Web Application Security Project]).
         .row.mb-4
           .col-md-6(data-aos="fade-left")
             a.anexo.mb-4.mb-lg-0(href="https://owasp.org/www-pdf-archive/Gu%C3%ADa_de_pruebas_de_OWASP_ver_3.0.pdf" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[strong Enlace web]. Clic conocer para conocer la Guía Owasp
+                p #[strong Enlace #[i web]]. Clic conocer para conocer la Guía Owasp
         p.mb-0 Se recomienda para la elaboración del plan de actividades, la creación de un diagrama de Gantt el cual se compone de dos grandes partes de la siguiente manera: 
     
     .BGR01.p-4.mb-4(data-aos="zoom-in")
@@ -78,7 +78,7 @@
         p.mb-0 La importancia de un diagrama de Gantt radica en la posibilidad de contar constantemente con una visualización global del proyecto, incluso de planes complejos, mostrando el impacto que un cambio puede generar en una sola actividad en todo el proyecto permitiendo generar retroalimentación a los roles interesados.
 
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 Para diseñar un diagrama de Gantt se recomienda la utilización de herramientas de software que permiten manejar de una manera ágil el seguimiento y verificación de su cumplimiento, incluso enmarcado dentro de un proyecto que puede considerarse más grande de marcando una hoja de ruta; algunas herramientas recomendadas son:  
+    p.mb-5 Para diseñar un diagrama de Gantt se recomienda la utilización de herramientas de #[i software] que permiten manejar de una manera ágil el seguimiento y verificación de su cumplimiento, incluso enmarcado dentro de un proyecto que puede considerarse más grande de marcando una hoja de ruta; algunas herramientas recomendadas son:  
 
     .row.justify-content-center.mb-4
       .col-md-8(data-aos="zoom-in")
@@ -111,25 +111,25 @@
           .col-10
             img.img01(src="@/assets/curso/tema1/img09.png")
         .row.justify-content-center.BG01.img02.p-4(data-aos="fade-right")
-          p.mb-5 Análisis del componente de aplicaciones web que corresponden a herramientas de software que funcionan vía internet y se convierten en soluciones que están “expuestas” al público de manera masiva.
+          p.mb-5 Análisis del componente de aplicaciones #[i web] que corresponden a herramientas de #[i software] que funcionan vía internet y se convierten en soluciones que están “expuestas” al público de manera masiva.
       .col-md-5.mx-2
         .row.justify-content-center.BG08(data-aos="zoom-in")
           .col-10
             img.img01(src="@/assets/curso/tema1/img10.png")
         .row.justify-content-center.BG07.img02.p-4(data-aos="fade-left")
-          p.mb-0 Establecer hacia quién va dirigido dicho análisis, entendiéndose que esas pruebas según la guía pueden estar orientadas a testers de software que son personas que trabajan en el marco de metodologías y pretenden dar cumplimiento a estándares de calidad unidos a una metodología en el marco del desarrollo de software.
+          p.mb-0 Establecer hacia quién va dirigido dicho análisis, entendiéndose que esas pruebas según la guía pueden estar orientadas a testers de #[i software] que son personas que trabajan en el marco de metodologías y pretenden dar cumplimiento a estándares de calidad unidos a una metodología en el marco del desarrollo de #[i software].
 
     .row.mb-4(data-aos="fade-right")
       .col-auto.BG06.p-2
         .h4.mb-0 Estos objetivos están orientados a:
       
-    p Especialistas de seguridad que, en su gran mayoría, se encuentran en la capa de administración de la infraestructura que soporta el funcionamiento del componente web en un ecosistema tecnológico y también a desarrolladores de software que son las personas encargadas de escribir las sentencias de código fuente que conforman el componente.
+    p Especialistas de seguridad que, en su gran mayoría, se encuentran en la capa de administración de la infraestructura que soporta el funcionamiento del componente #[i web] en un ecosistema tecnológico y también a desarrolladores de #[i software] que son las personas encargadas de escribir las sentencias de código fuente que conforman el componente.
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2.	Limitaciones y facilidades
     
-    p Cuando se aborda la creación de un plan de actividades es muy importante recopilar la mayor cantidad posible de información de una organización. Esta debe estar orientada hacia la consecución de un contexto general de la situación actual de la empresa que va a utilizar o que está utilizando la aplicación web y que redunda en un análisis organizacional global que permita ubicar de una manera ágil los posibles recursos o la carencia de ellos.
+    p Cuando se aborda la creación de un plan de actividades es muy importante recopilar la mayor cantidad posible de información de una organización. Esta debe estar orientada hacia la consecución de un contexto general de la situación actual de la empresa que va a utilizar o que está utilizando la aplicación #[i web] y que redunda en un análisis organizacional global que permita ubicar de una manera ágil los posibles recursos o la carencia de ellos.
 
     .row.justify-content-center.mb-4
       .col-md-10
@@ -142,7 +142,7 @@
                 p #[strong Análisis organizacional]: todas las empresas, sin importar su tamaño, tienen ciertas limitaciones que pueden representar un obstáculo para alcanzar los objetivos planteados. 
                 p Estas limitaciones son dificultades que pueden presentarse durante la ejecución del plan de trabajo y que se pueden superar, en muchas ocasiones, gracias a las facilidades con las que se cuenta.
 
-    .row.justify-content-center.align-items-center.BG09.p-4.mb-p-4
+    .row.justify-content-center.align-items-center.BG09.p-4.mb-4
       .col-md-8.order-md-1.order-2
         .h4.ms-2.mb-4 Es importante listar e identificar esas limitantes y facilidades en los siguientes temas:  
         ul.lista-ul--color.ms-4
@@ -173,7 +173,7 @@
       .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img12.png")
 
-    p La importancia de este análisis radica en la posibilidades de recomendar a futuro, o durante la ejecución del plan de pruebas, mecanismos, herramientas de software, prácticas, personal necesario, estrategias, tecnologías de carácter libre o incluso de pago que ayuden en la consecución de los objetivos y que eliminen la existencia de brechas que antes no se han tenido en cuenta.
+    p La importancia de este análisis radica en la posibilidades de recomendar a futuro, o durante la ejecución del plan de pruebas, mecanismos, herramientas de #[i software], prácticas, personal necesario, estrategias, tecnologías de carácter libre o incluso de pago que ayuden en la consecución de los objetivos y que eliminen la existencia de brechas que antes no se han tenido en cuenta.
     .h4 El siguiente gráfico representa lo anteriormente mencionado.
   
   .container.tarjeta.tarjeta--blanca(data-aos="fade-right")
@@ -193,21 +193,21 @@
             .col-10
               img.img01(src="@/assets/curso/tema1/img14.png")
           .row.justify-content-center.BG07.img02.p-4
-            p.mb-0 Aplicar el estándar Owasp y el manual de pruebas de pentesting propuesto para determinar el plan de pruebas que se aplicarán sobre el sistema con el enfoque de análisis de seguridad en las aplicaciones web.
+            p.mb-0 Aplicar el estándar Owasp y el manual de pruebas de #[i pentesting] propuesto para determinar el plan de pruebas que se aplicarán sobre el sistema con el enfoque de análisis de seguridad en las aplicaciones #[i web].
       .col-md-4.mb-md-0.mb-5(data-aos="zoom-in")
         .p-2
           .row.justify-content-center.BG06
             .col-10
               img.img01(src="@/assets/curso/tema1/img15.png")
           .row.justify-content-center.BG01.img02.p-4
-            p.mb-0 Determinar las pruebas de la metodología Owasp de seguridad en aplicaciones web para los 10 casos de vulnerabilidades más conocidos y definidos en el punto de la estrategia de este proceso.
+            p.mb-0 Determinar las pruebas de la metodología Owasp de seguridad en aplicaciones #[i web] para los 10 casos de vulnerabilidades más conocidos y definidos en el punto de la estrategia de este proceso.
       .col-md-4(data-aos="fade-left")
         .p-2
           .row.justify-content-center.BG10
             .col-10
               img.img01(src="@/assets/curso/tema1/img16.png")
           .row.justify-content-center.BG07.img02.p-4
-            p.mb-5 Determinar los artefactos de pruebas a utilizar de acuerdo con la metodología Owasp de seguridad en aplicaciones web.  
+            p.mb-5 Determinar los artefactos de pruebas a utilizar de acuerdo con la metodología Owasp de seguridad en aplicaciones #[i web].
 
     .row.justify-content-center.mb-4
       .col-10
@@ -225,7 +225,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8.order-md-1.order-2
         p Los mejores equipos de trabajo son los que se estructuran correctamente, saben comunicarse e interaccionan entre sí; la motivación, participación, organización, compromiso, confianza, objetivos comunes y resolución de problemas son las siete características del trabajo en equipo fundamentales. #[strong De ahí la importancia de tomarse el tiempo necesario para listar a las personas indicadas a quienes se les van a asignar las actividades en el plan de trabajo para interactuar con ellas].
-        p No obstante que este tipo de pruebas están orientadas a desarrolladores de software, es importante tener en cuenta otros tipos de roles que pueden interactuar dentro de un equipo de trabajo como los administradores de red y plataformas, puesto que estos son los encargados de otorgar permisos en usuarios, definir tipologías de red, manejo de configuración de reglas de firewalls, acceso a servidores de aplicaciones sistemas de autenticación entre otros, sobre todo para la parte en la cual consiste en contrastar los resultados obtenidos de las pruebas contra lo que realmente existe en el ecosistema tecnológico analizado en el que funciona una aplicación web. 
+        p No obstante que este tipo de pruebas están orientadas a desarrolladores de #[i software], es importante tener en cuenta otros tipos de roles que pueden interactuar dentro de un equipo de trabajo como los administradores de red y plataformas, puesto que estos son los encargados de otorgar permisos en usuarios, definir tipologías de red, manejo de configuración de reglas de #[i firewalls], acceso a servidores de aplicaciones sistemas de autenticación entre otros, sobre todo para la parte en la cual consiste en contrastar los resultados obtenidos de las pruebas contra lo que realmente existe en el ecosistema tecnológico analizado en el que funciona una aplicación #[i web].
       .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img18.png")
     
@@ -234,9 +234,9 @@
       h2 1.5.	Definir responsabilidades en el equipo
 
   .container.BG09.p-4(data-aos="fade-right")
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-md-1.col-4.mb-md-0.mb-4
-        img(src="@/assets/curso/tema1/img19.png")
+        img.img07(src="@/assets/curso/tema1/img19.png")
       .col-md-11
         p Los roles y responsabilidades #[strong se definen a nivel de la organización y del proyecto y el trabajo será conocer estos dos ítems del equipo en diferentes momentos de desarrollo de las actividades]. Para ello, contar con una estructura de equipo sólida en el nivel organizacional es fundamental y es lo primero que se debe apropiar para apoyar en la resolución de posibles brechas en esta área.
         p.mb-0 El principal rol que es el del desarrollador, debe contar como mínimo con los siguientes conocimientos: 
@@ -249,7 +249,7 @@
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6.	Crear una estrategia
     
-    p El procedimiento mediante el cual se determina para este caso es el análisis de vulnerabilidades de una aplicación web, y este corresponde a la verificación punto por punto de los 10 casos de ataques más comunes reportados por los informes que cada cierto tiempo destaca Owasp en dichos ambientes web, los cuales son:
+    p El procedimiento mediante el cual se determina para este caso es el análisis de vulnerabilidades de una aplicación #[i web], y este corresponde a la verificación punto por punto de los 10 casos de ataques más comunes reportados por los informes que cada cierto tiempo destaca Owasp en dichos ambientes #[i web], los cuales son:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="BGR05")
       .row.justify-content-center(titulo="Inyección (Injection)")
@@ -265,7 +265,7 @@
           img(src="@/assets/curso/tema1/img22.png")
       .row.justify-content-center(titulo="Secuencia de comandos en sitios cruzados (XSS)")
         .col-md-8.order-md-1.order-2
-          p Este tipo de ataque ocurre cuando se obtienen datos no confiables y se envían directamente al navegador web. Esto provoca que se puedan ejecutar comandos no deseados en el navegador del usuario. 
+          p Este tipo de ataque ocurre cuando se obtienen datos no confiables y se envían directamente al navegador #[i web]. Esto provoca que se puedan ejecutar comandos no deseados en el navegador del usuario. 
           p.mb-0 Estos comandos pueden obtener desde las credenciales de acceso del usuario como instalar ciertos programas maliciosos.
         .col-md-3.col-6.order-md-2.order-1.mb-md-0.mb-4
           img(src="@/assets/curso/tema1/img23.png")
@@ -277,7 +277,7 @@
       .row.justify-content-center(titulo="Configuración de seguridad incorrecta")
         .col-md-8.order-md-1.order-2
           p Este tipo de ataque ocurre cuando se han realizado malas configuraciones en los servidores de las aplicaciones, en las bases de datos o en la configuración del propio sistema operativo. 
-          p.mb-0 Es importante tener todo el software actualizado con la última versión disponible y que todas las librerías o frameworks que use la aplicación también estén actualizadas.
+          p.mb-0 Es importante tener todo el #[i software] actualizado con la última versión disponible y que todas las librerías o frameworks que use la aplicación también estén actualizadas.
         .col-md-3.col-6.order-md-2.order-1.mb-md-0.mb-4
           img(src="@/assets/curso/tema1/img25.png")
       .row.justify-content-center(titulo="Exposición de datos sensibles ")
@@ -295,7 +295,7 @@
           img(src="@/assets/curso/tema1/img27.png")
       .row.justify-content-center(titulo="Falsificación de peticiones en sitios cruzados")
         .col-md-8.order-md-1.order-2
-          p.mb-0 Este tipo de ataque ocurre cuando se realizan peticiones HTTP falsificadas del ordenador de la víctima a una aplicación web vulnerable.
+          p.mb-0 Este tipo de ataque ocurre cuando se realizan peticiones HTTP falsificadas del ordenador de la víctima a una aplicación #[i web] vulnerable.
         .col-md-3.col-6.order-md-2.order-1.mb-md-0.mb-4
           img(src="@/assets/curso/tema1/img28.png")
       .row.justify-content-center(titulo="Utilización de componentes con vulnerabilidades conocidas")
@@ -333,9 +333,9 @@
     
   
   .container.BG01.p-4
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-md-1.col-4.mb-md-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema1/img32.png")
+        img.img07(src="@/assets/curso/tema1/img32.png")
       .col-md-11
         p Se debe considerar que la determinación de los recursos necesarios para un proyecto debe contemplar cierto margen de flexibilidad y evolucionar a la par de la intervención, el comportamiento del entorno y las decisiones del cliente.
         p Dicho de otro modo, lo que no parece indispensable en un principio puede serlo más adelante.

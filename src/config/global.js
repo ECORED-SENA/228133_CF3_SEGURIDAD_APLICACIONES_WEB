@@ -191,32 +191,61 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Plan de Objetivos',
+      referencia:
+        'Caballero, Q., A. E. (2019). Webinar gratuito: guía de pruebas de Owasp. [Video]. YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=kXfZqQY0rcg&ab_channel=AlonsoCaballero',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Exploits</em>',
+      significado:
+        'parte de un <em>software</em> o una secuencia de comandos que se aprovecha de un error o vulnerabilidad.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>Netcat</em>',
+      significado:
+        'herramienta de línea de comandos que sirve para escribir y leer datos en la red.',
+    },
+    {
+      termino: 'Owasp',
+      significado: '<em>Open Web Application Security Project</em>.',
+    },
+    {
+      termino: '<em>Pentesting</em>',
+      significado:
+        'proceso que imita posibles ataques a una red informática e intenta robar datos.',
+    },
+    {
+      termino: '<em>Checklist</em>',
+      significado:
+        'lista de chequeo que sirve para registrar un proceso de auditoría.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Amor. F. (2020). Introducción a Owasp.',
+      link: 'https://www.adictosaltrabajo.com/2016/03/07/introduccion-a-owasp/',
+    },
+    {
+      referencia:
+        'Asana, (2020). 4 técnicas eficaces para definir roles y responsabilidades.',
+      link: 'https://asana.com/es/resources/roles-and-responsibilities',
+    },
+    {
+      referencia:
+        'Diaz, M., y Marulanda, M. F. (2018). Proyecto de aplicación de Owasp.',
+      link:
+        'https://repository.unad.edu.co/bitstream/handle/10596/20479/1060648494.pdf?sequence=3&isAllowed=y#page=57&zoom=100,148,204',
+    },
+    {
+      referencia:
+        'Junta de Andalucía. (2019). Owasp Testing Project. Junta de Andalucía.',
+      link:
+        'https://www.juntadeandalucia.es/servicios/madeja/contenido/recurso/553',
     },
   ],
   creditos: {
@@ -234,6 +263,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Carlos Hernán Muñoz',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca, Centro de teleinformática y producción industrial',
+      },
+      {
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          'Regional Norte de Santander, Centro de la Industria, la Empresa y Los Servicios CIES',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora Metodológica',
+        centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
     ],
     desarrolloProducto: [
       {
@@ -243,7 +294,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -255,7 +306,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

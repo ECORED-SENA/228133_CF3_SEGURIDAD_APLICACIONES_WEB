@@ -11,14 +11,14 @@
       .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema2/img01.png")
       .col-md-8
-        p Son los mecanismos que se centran en recoger toda la información como sea posible sobre la aplicación web objetivo y conocer la manera cómo opera. La recopilación de información es un paso fundamental y necesario en una prueba de intrusión. 
-        p Esta prueba corresponde al reconocimiento pasivo de información que se debe realizar sin intervenir los servidores o que estos generen logs de seguridad. Esta tarea normalmente se puede llevar a cabo de muchas formas. Utilizando herramientas de acceso público motores de búsqueda, scanner, enviando peticiones HTTP simples, o peticiones especialmente diseñadas, es posible forzar a la aplicación a filtrar información al exterior con mensajes de error devueltos, o revelar las versiones y tecnología en uso por la aplicación web.
+        p Son los mecanismos que se centran en recoger toda la información como sea posible sobre la aplicación #[i web] objetivo y conocer la manera cómo opera. La recopilación de información es un paso fundamental y necesario en una prueba de intrusión. 
+        p Esta prueba corresponde al reconocimiento pasivo de información que se debe realizar sin intervenir los servidores o que estos generen logs de seguridad. Esta tarea normalmente se puede llevar a cabo de muchas formas. Utilizando herramientas de acceso público motores de búsqueda, scanner, enviando peticiones HTTP simples, o peticiones especialmente diseñadas, es posible forzar a la aplicación a filtrar información al exterior con mensajes de error devueltos, o revelar las versiones y tecnología en uso por la aplicación #[i web].
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1.	Artefactos de pruebas
     
-    p.mb-5 La metodología a utilizar es Owasp la que comprende las siguientes fases enmarcadas dentro del ciclo de vida del desarrollo de software para lo que se recomienda reconocer las pruebas dentro del siguiente proceso, en especial los pasos 4 y 5.
+    p.mb-5 La metodología a utilizar es Owasp la que comprende las siguientes fases enmarcadas dentro del ciclo de vida del desarrollo de #[i software] para lo que se recomienda reconocer las pruebas dentro del siguiente proceso, en especial los pasos 4 y 5.
 
     figure.mb-4(data-aos="zoom-in")
       img(src="@/assets/curso/tema2/img02.svg")
@@ -28,9 +28,9 @@
       h2 2.2.	Tipos de artefactos
     
   .container.BG01.p-4
-    .row.justify-content-center.mb-4
+    .row.justify-content-centeralign-items-center
       .col-md-1.col-4.mb-md-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema2/img03.png")
+        img.img07(src="@/assets/curso/tema2/img03.png")
       .col-md-11
         p Como ya se ha mencionado, #[strong los artefactos tecnológicos son aquellos dispositivos concebidos y creados para ayudar a resolver necesidades o facilitar ciertas tareas], empleando para su construcción y funcionamiento las virtudes de la técnica y la ciencia.
         p De acuerdo con la estrategia definida y según la metodología seleccionada, se describen los tipos de artefactos a construir para esta prueba, así: 
@@ -50,25 +50,25 @@
       SlyderA(tipo="b")
         .row.justify-content-center.p-4
           .col-md-6.order-md-1.order-2
-            .h4 Spiders, robots y crawlers (Owasp-IG-001). 
-            p Los crawlers/robots/spiders web se encargan de inspeccionar los sitios web. Su comportamiento está estrictamente controlado por el protocolo de exclusión de robots del fichero robots.txt almacenado en la raíz del sitio web.
+            .h4 #[i Spiders, robots y crawlers] (Owasp-IG-001). 
+            p Los #[i crawlers/robots/spiders web] se encargan de inspeccionar los sitios #[i web]. Su comportamiento está estrictamente controlado por el protocolo de exclusión de #[i robots] del fichero robots.txt almacenado en la raíz del sitio #[i web].
           .col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img04.png")
         .row.justify-content-center.p-4
           .col-md-6.order-md-1.order-2
             .h4 Reconocimiento mediante motores de búsqueda (Owasp-IG-002).
-            p Utilizar  varios navegadores y realizar las siguientes búsquedas de su sitio web con el mismo comando.
+            p Utilizar  varios navegadores y realizar las siguientes búsquedas de su sitio #[i web] con el mismo comando.
           .col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img05.png")
         .row.justify-content-center.p-4
           .col-md-6.order-md-1.order-2
             .h4 Identificación de puntos de entrada de la aplicación (Owasp-IG-003)
-            p Se utiliza el complemento HTTPS headers disponible para Mozilla Firefox (ver la siguiente figura), al 	momento de verificar las solicitudes al sitio web www.sena.edu.co se debe buscar si utilizan los dos tipos de peticiones; GET y POST.
+            p Se utiliza el complemento HTTPS headers disponible para Mozilla Firefox (ver la siguiente figura), al 	momento de verificar las solicitudes al sitio #[i web] www.sena.edu.co se debe buscar si utilizan los dos tipos de peticiones; #[i GET] y #[i POST].
           .col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img06.png")
         .row.justify-content-center.p-4
           .col-md-6.order-md-1.order-2
-            .h4 Pruebas para encontrar firmas de aplicaciones web (Owasp-IG-004). 
+            .h4 Pruebas para encontrar firmas de aplicaciones #[i web] (Owasp-IG-004). 
             p En ambientes Linux se usa la herramienta netcat para leer datos de la red y con el siguiente comando se comprueba el campo Server en la cabecera de respuesta HTTP.
             p nc 172.17.8.279 80 es decir comando nc más ip del servidor y puerto.
           .col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
@@ -76,18 +76,18 @@
         .row.justify-content-center.p-4
           .col-md-6.order-md-1.order-2
             .h4 Descubrimiento de aplicaciones (Owasp-IG-005)
-            p El objetivo es descubrir los servicios que presta un servidor web por medio del siguiente comando en ambiente Linux:
+            p El objetivo es descubrir los servicios que presta un servidor #[i web] por medio del siguiente comando en ambiente Linux:
             p nmap -Pn -sT -sV -p0-65535 172.157.25.189
             p Para descubrir nombres de dominios asociados a mi paginaweb.com se usa el comando en ambiente Linux:
-            p host  -t ns mipaginaweb.com
+            p #[i host]  -t ns mipaginaweb.com
           .col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img08.png")
         .row.justify-content-center.p-4
           .col-md-6.order-md-1.order-2
             .h4 Análisis de códigos de error (Owasp-IG-006).
-            p HTTP 404 Not Found = página web no encontrada.
-            p HTTP 403 Forbidden = intento de acceso a recurso limitado.
-            p HTTP 301 Moved Permanently = recurso redireccionado a un sitio permanente.
+            p HTTP 404 #[i Not Found] = página #[i web] no encontrada.
+            p HTTP 403 #[i Forbidden] = intento de acceso a recurso limitado.
+            p HTTP 301 #[i Moved Permanently] = recurso redireccionado a un sitio permanente.
           .col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img09.png")
         .row.justify-content-center.p-4

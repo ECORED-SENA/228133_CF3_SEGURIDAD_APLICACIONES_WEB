@@ -9,15 +9,15 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8
-        p Un ambiente de pruebas es un entorno recomendado que pretende emular, ojalá al 100%, el ecosistema tecnológico en el que funciona un aplicación en este caso una aplicación web que ya se encuentra en uso por parte de una organización.
-        p Es decir, ya se encuentra funcionando en un ambiente productivo, de ahí la necesidad de identificar claramente de ese entorno productivo los siguientes ítems para replicarlos en el entorno de pruebas: sistemas operativos, servidores de aplicaciones, sistemas de bases de datos, mecanismos de interoperabilidad con otras aplicaciones, entornos de red, documentación correspondiente a manuales técnicos y de usuario, marcos de trabajo (frameworks) y demás software necesario para ejecutar las pruebas; para cada uno de estos es imprescindible la identificación de sus versiones y realizar el seguimiento a posibles cambios y sus dependencias.
+        p Un ambiente de pruebas es un entorno recomendado que pretende emular, ojalá al 100%, el ecosistema tecnológico en el que funciona un aplicación en este caso una aplicación #[i web] que ya se encuentra en uso por parte de una organización.
+        p Es decir, ya se encuentra funcionando en un ambiente productivo, de ahí la necesidad de identificar claramente de ese entorno productivo los siguientes ítems para replicarlos en el entorno de pruebas: sistemas operativos, servidores de aplicaciones, sistemas de bases de datos, mecanismos de interoperabilidad con otras aplicaciones, entornos de red, documentación correspondiente a manuales técnicos y de usuario, marcos de trabajo (#[i frameworks]) y demás #[i software] necesario para ejecutar las pruebas; para cada uno de estos es imprescindible la identificación de sus versiones y realizar el seguimiento a posibles cambios y sus dependencias.
       .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img01.png")
   
   .container.BG09.p-4
-    .row.justify-content-center.mb-4
+    .row.justify-content-centeralign-items-center
       .col-md-1.col-4.mb-md-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema3/img02.png")
+        img.img07(src="@/assets/curso/tema3/img02.png")
       .col-md-11
         p El entorno de pruebas recomendado para este tipo de plan que se va a realizar del lado servidor se basa en sistemas operativos de la familia Unix (Linux en diferentes versiones Cen tos, Red Hat, Ubuntu, FreeBSD o macOS) sin desconocer la necesidad de realizarlos en ambientes Windows, entre otros sistemas; el objetivo es ejecutar las pruebas sin temor a equivocarse para luego realizarlas en ambientes de producción.
         p A continuación se muestra un ejemplo de implementación de ambiente de pruebas recomendado que consta de cuatro pasos.
@@ -31,7 +31,7 @@
           .col-md-6.col-10.mb-md-0.mb-4
             img(src="@/assets/curso/tema3/img03.png")
           .col-md-6
-            p Consiste en identificar los servicios remotos para lo cual se puede utilizar la herramienta nmap que permite el escaneo de redes en donde se puede identificar qué servicios se están utilizando en un dispositivo remoto, así como la identificación de equipos activos, sistemas operativos en el equipo remoto, existencia de filtros o firewalls, entre otros.
+            p Consiste en identificar los servicios remotos para lo cual se puede utilizar la herramienta nmap que permite el escaneo de redes en donde se puede identificar qué servicios se están utilizando en un dispositivo remoto, así como la identificación de equipos activos, sistemas operativos en el equipo remoto, existencia de filtros o #[i firewalls], entre otros.
         p Por línea de comando en Linux su utilización es así más la ip objetivo en donde la respuesta será un listado de los puertos abiertos o cerrados en esa dirección ip.
         .row
           .col-auto
@@ -65,7 +65,7 @@
             img(src="@/assets/curso/tema3/img06.png")
           .col-md-6
             p Este paso se hace necesario para las tres herramientas anteriores y definir un sistema objetivo en el que se harán las pruebas. Se recomienda iniciar en estas labores de pruebas en un entorno real, en ningún caso en sistemas públicos de internet. Para aprender a usar estas herramientas, se debe utilizar el entorno de pruebas, construyendo escenarios de investigación en donde cada persona pueda tener acercamientos sin riesgos de afectar a ningún entorno en producción.
-            P Las herramientas recomendadas aquí son Damn Vulnerable Linuxy (DVL) y Damn Vulnerable Web Application (DVWA).
+            P Las herramientas recomendadas aquí son #[i Damn Vulnerable Linuxy] (DVL) y #[i Damn Vulnerable Web Application] (DVWA).
 
     ModalA(:abrir-modal.sync="modal1")
       .row.justify-content-center
@@ -96,7 +96,7 @@
         ul.lista-ul--color.ms-4
           li
             <i class="fas fa-check-circle" style="color:#6ACEAE"></i>
-            | Navegadores web Mozilla, Chrome etc.
+            | Navegadores #[i web] Mozilla, Chrome etc.
           li
             <i class="fas fa-check-circle" style="color:#6ACEAE"></i>
             | Motores de búsqueda Bing, Google.
@@ -168,13 +168,13 @@
               img(src="@/assets/curso/tema3/img13.png")
           .col-8.BG09.p-4
             .h4 Testlink
-            p.mb-4 Sistema de gestión de pruebas de software basado en la web.
+            p.mb-4 Sistema de gestión de pruebas de #[i software] basado en la #[i web].
         .row.justify-content-center.p-2
           .col-4.BG04.p-4
             img(src="@/assets/curso/tema3/img14.png")
           .col-8.BG09.p-4
             .h4 Zephyr
-            p.mb-0 Software de gestión de ciclo de pruebas de software, disponible como versión empresarial y como un Add-On de Atalassian Jira.
+            p.mb-0 #[i Software] de gestión de ciclo de pruebas de #[i software], disponible como versión empresarial y como un Add-On de Atalassian Jira.
       .col-md-6
         .row.justify-content-center.p-2.mb-4
           .col-4.BG04.p-4
@@ -189,7 +189,7 @@
               img(src="@/assets/curso/tema3/img16.png")
           .col-8.BG09.p-4
             .h4 Selenium WebDriver 
-            p.mb-0 Es uno de los principales exponentes en la automatización de software testing para aplicaciones web hoy en día.
+            p.mb-0 Es uno de los principales exponentes en la automatización de #[i software testing] para aplicaciones #[i web] hoy en día.
         .row.justify-content-center.p-2.mb-4
           .col-4.BG04.p-4
             figure.mt-3
@@ -212,14 +212,14 @@
               img(src="@/assets/curso/tema3/img18.png")
           .col-8.BG01.p-4
             .h4 Netdada 
-            p.mb-0 Es un software de monitorización gratuito y open source que permite supervisar todo tipo de KPI en tiempo real.
+            p.mb-0 Es un #[i software] de monitorización gratuito y open source que permite supervisar todo tipo de KPI en tiempo real.
         .row.justify-content-center.p-2.mb-4
           .col-4.BG06.p-4
             figure.mt-4
               img(src="@/assets/curso/tema3/img19.png")
           .col-8.BG01.p-4
             .h4 Zabbix 
-            p.mb-0 Es una de las herramientas de software para monitorización de servidores más conocidas.
+            p.mb-0 Es una de las herramientas de #[i software] para monitorización de servidores más conocidas.
         .row.justify-content-center.p-2.mb-4
           .col-4.BG06.p-4
             .row.justify-content-center
@@ -227,7 +227,7 @@
                 img(src="@/assets/curso/tema3/img20.png")
           .col-8.BG01.p-4
             .h4 Monit 
-            p.mb-0 Es un  software de monitorización que se emplea en sistemas Linux o basados en UNIX.
+            p.mb-0 Es un  #[i software] de monitorización que se emplea en sistemas Linux o basados en UNIX.
       .col-md-6
         .row.justify-content-center.p-2.mb-4
           .col-4.BG06.p-4
@@ -236,7 +236,7 @@
                 img(src="@/assets/curso/tema3/img21.png")
           .col-8.BG01.p-4
             .h4 Ntopng 
-            p.mb-0 Se ha erigido como uno de los software de monitorización de redes más completos.
+            p.mb-0 Se ha erigido como uno de los #[i software] de monitorización de redes más completos.
         .row.justify-content-center.p-2.mb-4
           .col-4.BG06.p-4
             .row.justify-content-center
@@ -247,9 +247,9 @@
             p.mb-0 Es una herramienta que permite realizar una monitorización integral del rendimiento de aplicaciones o de usuarios reales.
 
   .container.BG01.p-4
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-md-1.col-4.mb-md-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema3/img23.png")
+        img.img07(src="@/assets/curso/tema3/img23.png")
       .col-md-11
         p Hemos llegado a la finalización de este componente, pero antes es importante que observar las videoclases que se presentarán a continuación y que servirán como apoyo al ejercicio práctico que debe realizar en la elaboración de un plan de pruebas.
 
