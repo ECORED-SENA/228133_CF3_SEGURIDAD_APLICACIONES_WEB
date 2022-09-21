@@ -16,10 +16,11 @@
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.1.	Artefactos de pruebas
+      h2 2.1.	Metodología
     
     p.mb-5 La metodología a utilizar es Owasp la que comprende las siguientes fases enmarcadas dentro del ciclo de vida del desarrollo de #[i software] para lo que se recomienda reconocer las pruebas dentro del siguiente proceso, en especial los pasos 4 y 5.
 
+    .h4.text-center PROCESO
     figure.mb-4(data-aos="zoom-in")
       img(src="@/assets/curso/tema2/img02.svg")
 
@@ -100,7 +101,7 @@
             p openssl s_client -connect mipaginaweb.com
             .row
               .col-auto
-                a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
+                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                   span Ver más
                   .indicador--click(v-if="mostrarIndicador")
           .col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
@@ -126,7 +127,7 @@
                 | Saltarse el sistema de autenticación (Owasp-AT-005).
             .row
               .col-auto
-                a.boton.color-acento-contenido.indicador__container(@click="modal2 = true")
+                a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                   span Ver más
                   .indicador--click(v-if="mostrarIndicador")
           .col-md-6.col-10.order-md-2.order-1.mb-md-0.mb-4
