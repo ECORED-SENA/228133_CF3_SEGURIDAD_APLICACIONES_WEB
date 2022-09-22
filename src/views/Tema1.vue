@@ -34,12 +34,12 @@
             .BG02.p-4
               figure.mb-4
                 img(src="@/assets/curso/tema1/img03.png")
-              p.mb-5 En su parte izquierda se describe la lista de tareas a llevar a cabo.
+              p.mb-4 En su parte izquierda se describe la lista de tareas a llevar a cabo.
           .col-md-6.col-10.mb-md-0.mb-4
             .BG02.p-4
               figure.mb-4
                 img.w-92(src="@/assets/curso/tema1/img04.png")
-              p En la parte de derecha hay un cronograma con barras que representa el trabajo a realizar.
+              p.mb-0 En la parte de derecha hay un cronograma con barras que representa el trabajo a realizar.
 
     p.mb-5 Así mismo, dentro del diagrama es importante definir:
 
