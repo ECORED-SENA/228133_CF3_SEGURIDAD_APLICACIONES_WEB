@@ -59,13 +59,22 @@
 .BG12
   background-color: #D4F7EB
 
+.BG13
+  border: 5px solid #fff
+
 .BGR01, .BGR03, .BGR05
   border-radius: 15px
 
 .BGH01, .BGH07
-  height: 225px
+  height: 38%
+  @media (max-width: $bp-max-lg)
+    height: 50%
+  @media (max-width: $bp-max-md)
+    height: 65%
   @media (max-width: $bp-max-sm)
-    height: 360px
+    height: 30%
+  @media (max-width: $bp-max-xs)
+    height: 40%
   
 .BGI07, .BG12
   height: 196px
@@ -73,9 +82,13 @@
     height: 250px
   
 .BGJ01, .BGJ07
-  height: 264px
+  height: 45%
+  @media (max-width: $bp-max-lg)
+    height: 55%
   @media (max-width: $bp-max-md)
-    height: 384px
+    height: 72%
+  @media (max-width: $bp-max-sm)
+    height: 30%
 
 .BGI06, .BGI10
   height: 264px
@@ -83,9 +96,14 @@
     height: 150px
 
 .BGK09, .BGK11
-  height: 310px
+  height: 365px
+  @media (max-width: $bp-max-lg)
+    height: 528px
   @media (max-width: $bp-max-md)
     height: 432px
+  @media (max-width: $bp-max-sm)
+    height: 216px
+
 
 .BGM01, .BGM09, .img08
   margin-inline: -3.2rem !important

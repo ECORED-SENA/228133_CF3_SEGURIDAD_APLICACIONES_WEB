@@ -105,12 +105,12 @@
     p.mb-5 Los objetivos se pueden plantear de la siguiente manera: <br><br>
 
     .row.justify-content-center.pt-5.mb-4
-      .col-md-5.mx-2
+      .col-md-5.mx-2.mb-md-0.mb-5
         .row.justify-content-center.BG06(data-aos="zoom-in")
           .col-10
             img.img01(src="@/assets/curso/tema1/img09.png")
         .row.justify-content-center.BGH01.img02.p-4(data-aos="fade-right")
-          p.mb-5 Análisis del componente de aplicaciones #[i web] que corresponden a herramientas de #[i software] que funcionan vía internet y se convierten en soluciones que están “expuestas” al público de manera masiva.
+          p.mb-0 Análisis del componente de aplicaciones #[i web] que corresponden a herramientas de #[i software] que funcionan vía internet y se convierten en soluciones que están “expuestas” al público de manera masiva.
       .col-md-5.mx-2
         .row.justify-content-center.BG08(data-aos="zoom-in")
           .col-10
@@ -185,27 +185,24 @@
     p.mb-5 Para este apartado es importante definir que los objetivos serán guiados por la metodología Owasp y las metas a cumplir en este proceso son: <br><br>
 
     .row.justify-content-center.pt-5.mb-5
-      .col-md-4.mb-md-0.mb-5(data-aos="fade-right")
-        .p-2
-          .row.justify-content-center.BG10
-            .col-10
-              img.img01(src="@/assets/curso/tema1/img14.png")
-          .row.justify-content-center.BGJ07.img09.p-4
-            p.mb-0 Aplicar el estándar Owasp y el manual de pruebas de #[i pentesting] propuesto para determinar el plan de pruebas que se aplicarán sobre el sistema con el enfoque de análisis de seguridad en las aplicaciones #[i web].
-      .col-md-4.mb-md-0.mb-5(data-aos="zoom-in")
-        .p-2
-          .row.justify-content-center.BG06
-            .col-10
-              img.img01(src="@/assets/curso/tema1/img15.png")
-          .row.justify-content-center.BGJ01.img09.p-4
-            p.mb-0 Determinar las pruebas de la metodología Owasp de seguridad en aplicaciones #[i web] para los 10 casos de vulnerabilidades más conocidos y definidos en el punto de la estrategia de este proceso.
-      .col-md-4(data-aos="fade-left")
-        .p-2
-          .row.justify-content-center.BG10
-            .col-10
-              img.img01(src="@/assets/curso/tema1/img16.png")
-          .row.justify-content-center.BGJ07.img09.p-4
-            p.mb-5 Determinar los artefactos de pruebas a utilizar de acuerdo con la metodología Owasp de seguridad en aplicaciones #[i web].
+      .col-md-4.BG13.mb-md-0.mb-5(data-aos="fade-right")
+        .row.justify-content-center.BG10
+          .col-10
+            img.img01(src="@/assets/curso/tema1/img14.png")
+        .row.justify-content-center.BGJ07.img09.p-4
+          p.mb-0 Aplicar el estándar Owasp y el manual de pruebas de #[i pentesting] propuesto para determinar el plan de pruebas que se aplicarán sobre el sistema con el enfoque de análisis de seguridad en las aplicaciones #[i web].
+      .col-md-4.BG13.mb-md-0.mb-5(data-aos="zoom-in")
+        .row.justify-content-center.BG06
+          .col-10
+            img.img01(src="@/assets/curso/tema1/img15.png")
+        .row.justify-content-center.BGJ01.img09.p-4
+          p.mb-0 Determinar las pruebas de la metodología Owasp de seguridad en aplicaciones #[i web] para los 10 casos de vulnerabilidades más conocidos y definidos en el punto de la estrategia de este proceso.
+      .col-md-4.BG13(data-aos="fade-left")
+        .row.justify-content-center.BG10
+          .col-10
+            img.img01(src="@/assets/curso/tema1/img16.png")
+        .row.justify-content-center.BGJ07.img09.p-4
+          p.mb-5 Determinar los artefactos de pruebas a utilizar de acuerdo con la metodología Owasp de seguridad en aplicaciones #[i web].
 
     .row.justify-content-center.mb-4
       .col-10
@@ -357,8 +354,8 @@
             .row.justify-content-center.img04
               .col-auto.BGR02
                 .h4.mx-4.mb-0 Alcance
-            .row.justify-content-center.BGK09.img05.p-4.pb-5
-              p.mb-5 Son los resultados que se esperan del proyecto y el conjunto de labores que se deben realizar para llegar a esos resultados planteados.<br><br><br><br>
+            .row.justify-content-center.BGK09.img05.p-4
+              p.mb-0 Son los resultados que se esperan del proyecto y el conjunto de labores que se deben realizar para llegar a esos resultados planteados.
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG06
               .col-lg-6.mb-4
@@ -366,8 +363,8 @@
             .row.justify-content-center.img04
               .col-auto.BGR02
                 .h4.mx-4.mb-0 Calendario
-            .row.justify-content-center.BGK11.img05.p-4.pb-5
-              p.mb-5 Corresponde a la línea de tiempo del proyecto. Abarca no solo la fecha de cierre final, sino también los hitos importantes y los plazos de las tareas a lo largo del proceso.<br><br><br>
+            .row.justify-content-center.BGK11.img05.p-4
+              p.mb-0 Corresponde a la línea de tiempo del proyecto. Abarca no solo la fecha de cierre final, sino también los hitos importantes y los plazos de las tareas a lo largo del proceso.
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG04
               .col-lg-6.mb-4
@@ -375,28 +372,27 @@
             .row.justify-content-center.img04
               .col-auto.BGR02
                 .h4.mx-4.mb-0 Presupuesto
-            .row.justify-content-center.BGK09.img05.p-4.pb-5
-              p.mb-5 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y ¿cuáles son los fondos que se están invirtiendo en el plan?<br><br>
+            .row.justify-content-center.BGK09.img05.p-4
+              p.mb-0 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y ¿cuáles son los fondos que se están invirtiendo en el plan?
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG06.mt-4
               .col-lg-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img37.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
-                .h4.mx-lg-4.mb-0 Logro de los objetivos 
-                .h4.mx-lg-4.mb-0.text-center de negocio
+                .h4.mx-xl-4.mb-0.text-center Logro de los objetivos de negocio
             .row.justify-content-center.BGK11.img06.p-4
               p.mb-0 Es la forma en que el proyecto funcionó comparando con los casos del negocio. Se debe dar respuesta a las siguientes preguntas: ¿se consiguieron los beneficios esperados (tanto tangibles como intangibles)? y ¿se obtuvo la ganancia esperada de acuerdo con la inversión (ROI - tasa de retorno de la inversión)?
           .BG02.pt-5.mx-2
-            .row.justify-content-center.BG04
+            .row.justify-content-center.BG04.mt-4
               .col-lg-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img38.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
                 .h4.mx-lg-4.mb-0.text-center La satisfacción del cliente 
             .row.justify-content-center.BGK09.img06.p-4
-              p.mb-4 Se refiere al grado en que los resultados del proyecto cumplen o superan las expectativas; esto abarca la calidad de las entregas, la experiencia general del cliente, el servicio al cliente y la comunicación entre las partes interesadas internas y externas a lo largo del ciclo de vida del proyecto.<br>
-   
+              p.mb-0 Se refiere al grado en que los resultados del proyecto cumplen o superan las expectativas; esto abarca la calidad de las entregas, la experiencia general del cliente, el servicio al cliente y la comunicación entre las partes interesadas internas y externas a lo largo del ciclo de vida del proyecto.
+          
 </template>
 
 <script>
