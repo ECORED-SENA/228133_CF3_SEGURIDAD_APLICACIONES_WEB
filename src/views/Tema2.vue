@@ -22,14 +22,14 @@
 
     
     .h4.text-center PROCESO
-    .BGM09.mb-4(data-aos="zoom-in")
+    .BGM09.p-4.p-md-5.mb-4(data-aos="zoom-in")
       img(src="@/assets/curso/tema2/img02.svg")
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2	Tipos de artefactos
     
-    .BGM01.p-4
+    .BGM01.p-4.p-md-5.mb-4
       .row.justify-content-center.align-items-center
         .col-lg-1.col-sm-3.col-4.mb-lg-0.md-4(data-aos="fade-right")
           img.img07(src="@/assets/curso/tema2/img03.png")

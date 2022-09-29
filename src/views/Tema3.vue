@@ -14,7 +14,7 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img01.png")
   
-    .BGM09.p-4.mb-4
+    .BGM09.p-4.p-md-5.mb-4
       .row.justify-content-center.align-items-center
         .col-lg-1.col-sm-3.col-4.mb-lg-0.md-4(data-aos="fade-right")
           img.img07(src="@/assets/curso/tema3/img02.png")
@@ -244,12 +244,12 @@
             .h4 New Relic 
             p.mb-0 Es una herramienta que permite realizar una monitorización integral del rendimiento de aplicaciones o de usuarios reales.
 
-    .BGM01.p-4
+    .BGM01.p-4.p-md-5.mb-5
       .row.justify-content-center.align-items-center
         .col-md-1.col-4.mb-md-0.mb-4(data-aos="fade-right")
           img.img07(src="@/assets/curso/tema3/img23.png")
         .col-md-11
-          p Hemos llegado a la finalización de este componente, pero antes es importante que observar las videoclases que se presentarán a continuación y que servirán como apoyo al ejercicio práctico que debe realizar en la elaboración de un plan de pruebas.
+          p.mb-0 Hemos llegado a la finalización de este componente, pero antes es importante que observar las videoclases que se presentarán a continuación y que servirán como apoyo al ejercicio práctico que debe realizar en la elaboración de un plan de pruebas.
 
     figure.mb-5(data-aos="zoom-in")
       .video

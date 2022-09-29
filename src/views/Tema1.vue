@@ -175,7 +175,7 @@
     p La importancia de este análisis radica en la posibilidades de recomendar a futuro, o durante la ejecución del plan de pruebas, mecanismos, herramientas de #[i software], prácticas, personal necesario, estrategias, tecnologías de carácter libre o incluso de pago que ayuden en la consecución de los objetivos y que eliminen la existencia de brechas que antes no se han tenido en cuenta.
     .h4 El siguiente gráfico representa lo anteriormente mencionado.
 
-    .BGM01.mb-4(data-aos="fade-right")
+    .BGM01.p-4.p-md-5.mb-4(data-aos="fade-right")
       img(src="@/assets/curso/tema1/img13.svg")
     
     separador
@@ -190,21 +190,21 @@
           .row.justify-content-center.BG10
             .col-10
               img.img01(src="@/assets/curso/tema1/img14.png")
-          .row.justify-content-center.BG07.img09.p-4
+          .row.justify-content-center.BGJ07.img09.p-4
             p.mb-0 Aplicar el estándar Owasp y el manual de pruebas de #[i pentesting] propuesto para determinar el plan de pruebas que se aplicarán sobre el sistema con el enfoque de análisis de seguridad en las aplicaciones #[i web].
       .col-md-4.mb-md-0.mb-5(data-aos="zoom-in")
         .p-2
           .row.justify-content-center.BG06
             .col-10
               img.img01(src="@/assets/curso/tema1/img15.png")
-          .row.justify-content-center.BG01.img09.p-4
+          .row.justify-content-center.BGJ01.img09.p-4
             p.mb-0 Determinar las pruebas de la metodología Owasp de seguridad en aplicaciones #[i web] para los 10 casos de vulnerabilidades más conocidos y definidos en el punto de la estrategia de este proceso.
       .col-md-4(data-aos="fade-left")
         .p-2
           .row.justify-content-center.BG10
             .col-10
               img.img01(src="@/assets/curso/tema1/img16.png")
-          .row.justify-content-center.BG07.img09.p-4
+          .row.justify-content-center.BGJ07.img09.p-4
             p.mb-5 Determinar los artefactos de pruebas a utilizar de acuerdo con la metodología Owasp de seguridad en aplicaciones #[i web].
 
     .row.justify-content-center.mb-4
@@ -231,7 +231,7 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5	Definir responsabilidades en el equipo
 
-    .BGM09.p-4.mb-5(data-aos="fade-right")
+    .BGM09.p-4.p-md-5.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center
         .col-lg-1.col-sm-3.col-4.mb-lg-0.md-4
           img.img07(src="@/assets/curso/tema1/img19.png")
@@ -329,7 +329,7 @@
       img(src="@/assets/curso/tema1/img31.svg")
     
   
-    .BGM01.p-4.mb-4
+    .BGM01.p-4.p-md-5.mb-4
       .row.justify-content-center.align-items-center
         .col-lg-1.col-sm-3.col-4.mb-lg-0.md-4(data-aos="fade-right")
           img.img07(src="@/assets/curso/tema1/img32.png")
@@ -349,52 +349,52 @@
     
     .row.justify-content-center
       .col-md-11
-        SlyderF.mb-5.pt-5(columnas="col-lg-4")
+        SlyderF.mb-5.pt-5(columnas="col-lg-4 col-md-6")
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG04
-              .col-lg-6.col-4.mb-4
+              .col-lg-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img34.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
                 .h4.mx-4.mb-0 Alcance
-            .row.justify-content-center.BG09.img05.p-4.pb-5
+            .row.justify-content-center.BGK09.img05.p-4.pb-5
               p.mb-5 Son los resultados que se esperan del proyecto y el conjunto de labores que se deben realizar para llegar a esos resultados planteados.<br><br><br><br>
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG06
-              .col-lg-6.col-4.mb-4
+              .col-lg-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img35.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
                 .h4.mx-4.mb-0 Calendario
-            .row.justify-content-center.BG11.img05.p-4.pb-5
+            .row.justify-content-center.BGK11.img05.p-4.pb-5
               p.mb-5 Corresponde a la línea de tiempo del proyecto. Abarca no solo la fecha de cierre final, sino también los hitos importantes y los plazos de las tareas a lo largo del proceso.<br><br><br>
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG04
-              .col-lg-6.col-4.mb-4
+              .col-lg-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img36.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
                 .h4.mx-4.mb-0 Presupuesto
-            .row.justify-content-center.BG09.img05.p-4.pb-5
+            .row.justify-content-center.BGK09.img05.p-4.pb-5
               p.mb-5 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y ¿cuáles son los fondos que se están invirtiendo en el plan?<br><br>
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG06.mt-4
-              .col-lg-6.col-4.mb-4
+              .col-lg-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img37.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
-                .h4.mx-4.mb-0 Logro de los objetivos 
-                .h4.mx-4.mb-0.text-center de negocio
-            .row.justify-content-center.BG11.img06.p-4
+                .h4.mx-lg-4.mb-0 Logro de los objetivos 
+                .h4.mx-lg-4.mb-0.text-center de negocio
+            .row.justify-content-center.BGK11.img06.p-4
               p.mb-0 Es la forma en que el proyecto funcionó comparando con los casos del negocio. Se debe dar respuesta a las siguientes preguntas: ¿se consiguieron los beneficios esperados (tanto tangibles como intangibles)? y ¿se obtuvo la ganancia esperada de acuerdo con la inversión (ROI - tasa de retorno de la inversión)?
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG04
-              .col-lg-6.col-4.mb-4
+              .col-lg-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img38.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
-                .h4.mx-4.mb-0 La satisfacción del cliente 
-            .row.justify-content-center.BG09.img05.p-4
+                .h4.mx-lg-4.mb-0.text-center La satisfacción del cliente 
+            .row.justify-content-center.BGK09.img06.p-4
               p.mb-4 Se refiere al grado en que los resultados del proyecto cumplen o superan las expectativas; esto abarca la calidad de las entregas, la experiencia general del cliente, el servicio al cliente y la comunicación entre las partes interesadas internas y externas a lo largo del ciclo de vida del proyecto.<br>
    
 </template>

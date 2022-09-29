@@ -18,7 +18,7 @@
   100%
     transform: translateY(0px)
 
-.BGR01, .BGH01, .BGM01, .BG01, .bloque-texto-a.color-acento-contenido:before
+.BGR01, .BGH01, .BGM01, .BG01, .BGJ01, .bloque-texto-a.color-acento-contenido:before
   background-color: #E5FDF3
   
 .BG02
@@ -39,21 +39,21 @@
   background-color: #FFE59F
 
 .BG06, .BGI06, .bloque-texto-a.color-acento-contenido, .slyder-a__btn--sigt, .slyder-a__btn--atrs, .slyder-a__bullets__item--active
-  background-color: $color-acento-contenido
+  background-color: $color-acento-contenido !important
 
-.BG07, .BGH07, .BGI07
+.BG07, .BGH07, .BGI07, .BGJ07
   background-color: #E5EAFF
 
 .BG08
   background-color: $color-primario
 
-.BG09, .BGM09, .BGH09
+.BG09, .BGM09, .BGH09, .BGK09
   background-color: #FFF4D6
 
 .BG10, .BGI10
   background-color: $color-secundario
 
-.BG11
+.BG11, .BGK11
   background-color: #C7EDE0
 
 .BG12
@@ -63,7 +63,7 @@
   border-radius: 15px
 
 .BGH01, .BGH07
-  height: 215
+  height: 225px
   @media (max-width: $bp-max-sm)
     height: 360px
   
@@ -71,14 +71,26 @@
   height: 196px
   @media (max-width: $bp-max-md)
     height: 250px
+  
+.BGJ01, .BGJ07
+  height: 264px
+  @media (max-width: $bp-max-md)
+    height: 384px
 
 .BGI06, .BGI10
   height: 264px
   @media (max-width: $bp-max-md)
     height: 150px
 
+.BGK09, .BGK11
+  height: 310px
+  @media (max-width: $bp-max-md)
+    height: 432px
+
 .BGM01, .BGM09, .img08
   margin-inline: -3.2rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.4rem !important
 
 .img01
   top: -30%
@@ -128,6 +140,7 @@
     height: 40px
   
 .slyder-a__bullets__item
+  background-color: #BAEBD7
   @media (max-width: $bp-max-xs)
     margin: 0 7px
 
