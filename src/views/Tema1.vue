@@ -173,10 +173,73 @@
         img(src="@/assets/curso/tema1/img12.png")
 
     p La importancia de este análisis radica en la posibilidades de recomendar a futuro, o durante la ejecución del plan de pruebas, mecanismos, herramientas de #[i software], prácticas, personal necesario, estrategias, tecnologías de carácter libre o incluso de pago que ayuden en la consecución de los objetivos y que eliminen la existencia de brechas que antes no se han tenido en cuenta.
-    .h4 El siguiente gráfico representa lo anteriormente mencionado.
+    .h4.mb-5 El siguiente gráfico representa lo anteriormente mencionado.
 
-    .BGM01.p-4.p-md-5.mb-4(data-aos="fade-right")
-      img(src="@/assets/curso/tema1/img13.svg")
+    .row.justify-content-center.mb-4
+      .col-md-4(data-aos="fade-right")
+        .BGI01.p-4
+          .row.justify-content-center.mb-4
+            .col-md-4.col-6
+              img(src="@/assets/curso/tema1/img39.png")
+          .BGR02.px-2.py-1.mb-4
+            .h4.text-center.mb-0 Lista
+          .row.mb-4
+            .col-1
+              .h5 <span style="background-color:#6ACEAE; padding: 3px">1</span>
+            .col-11
+              p.ms-2.mb-0 Facilidades
+          .row
+            .col-1
+              .h5 <span style="background-color:#6ACEAE; padding: 3px">1A</span>
+            .col-11
+              p.ms-2.mb-2 Tecnológicas.
+              p.ms-2.mb-2 Recursos logísticos.
+              p.ms-2.mb-2 Talento humano.
+              p.ms-2.mb-2 Recursos económicos.
+              p.ms-2.mb-0 Capacitación.
+      .col-md-4(data-aos="zoom-in")
+        .BGI09.p-4
+          .row.justify-content-center.mb-4
+            .col-md-4.col-6
+              img(src="@/assets/curso/tema1/img40.png")
+          .BGR02.px-2.py-1.mb-4
+            .h4.text-center.mb-0 Describe
+          .row.mb-4
+            .col-1
+              .h5 <span style="background-color:#6ACEAE; padding: 3px">2</span>
+            .col-11
+              p.ms-2.mb-0 Análisis orgnizacional global.
+          .row
+            .col-1
+              .h5 <span style="background-color:#6ACEAE; padding: 3px">2A</span>
+            .col-11
+              p.ms-2.mb-2 Organigrama.
+              p.ms-2.mb-2 Documentación.
+              p.ms-2.mb-2 Misión.
+              p.ms-2.mb-0 Visión.
+              br
+      .col-md-4(data-aos="fade-left")
+        .BGI01.p-4
+          .row.justify-content-center.mb-4
+            .col-md-4.col-6
+              img(src="@/assets/curso/tema1/img41.png")
+          .BGR02.px-2.py-1.mb-4
+            .h4.text-center.mb-0 Mitiga
+          .row.mb-4
+            .col-1
+              .h5 <span style="background-color:#6ACEAE; padding: 3px">3</span>
+            .col-11
+              p.ms-2.mb-0 Análisis orgnizacional global.
+          .row
+            .col-1
+              .h5 <span style="background-color:#6ACEAE; padding: 3px">3A</span>
+            .col-11
+              p.ms-2.mb-2 Aplicación de estándares (Owasp).
+              p.ms-2.mb-2 Ecosistemas tecnológicos.
+              p.ms-2.mb-2 Ambiente de desarrollo.
+              p.ms-2.mb-2 Ambiente de pruebas.
+              p.ms-2.mb-0 Ambiente de producción.
+    
     
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -349,7 +412,7 @@
         SlyderF.mb-5.pt-5(columnas="col-lg-4 col-md-6")
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG04
-              .col-lg-6.mb-4
+              .col-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img34.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
@@ -358,7 +421,7 @@
               p.mb-0 Son los resultados que se esperan del proyecto y el conjunto de labores que se deben realizar para llegar a esos resultados planteados.
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG06
-              .col-lg-6.mb-4
+              .col-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img35.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
@@ -367,7 +430,7 @@
               p.mb-0 Corresponde a la línea de tiempo del proyecto. Abarca no solo la fecha de cierre final, sino también los hitos importantes y los plazos de las tareas a lo largo del proceso.
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG04
-              .col-lg-6.mb-4
+              .col-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img36.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
@@ -376,7 +439,7 @@
               p.mb-0 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y ¿cuáles son los fondos que se están invirtiendo en el plan?
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG06.mt-4
-              .col-lg-6.mb-4
+              .col-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img37.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
@@ -385,7 +448,7 @@
               p.mb-0 Es la forma en que el proyecto funcionó comparando con los casos del negocio. Se debe dar respuesta a las siguientes preguntas: ¿se consiguieron los beneficios esperados (tanto tangibles como intangibles)? y ¿se obtuvo la ganancia esperada de acuerdo con la inversión (ROI - tasa de retorno de la inversión)?
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG04.mt-4
-              .col-lg-6.mb-4
+              .col-6.mb-4
                 img.img03(src="@/assets/curso/tema1/img38.png")
             .row.justify-content-center.img04
               .col-auto.BGR02
