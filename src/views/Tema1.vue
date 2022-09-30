@@ -176,63 +176,63 @@
     .h4.mb-5 El siguiente gráfico representa lo anteriormente mencionado.
 
     .row.justify-content-center.mb-4
-      .col-md-4(data-aos="fade-right")
+      .col-lg-4.col-10.mb-lg-0.mb-4(data-aos="fade-right")
         .BGI01.p-4
           .row.justify-content-center.mb-4
-            .col-md-4.col-6
+            .col-4
               img(src="@/assets/curso/tema1/img39.png")
           .BGR02.px-2.py-1.mb-4
             .h4.text-center.mb-0 Lista
           .row.mb-4
             .col-1
-              .h5 <span style="background-color:#6ACEAE; padding: 3px">1</span>
+              .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">1</span>
             .col-11
               p.ms-2.mb-0 Facilidades
           .row
             .col-1
-              .h5 <span style="background-color:#6ACEAE; padding: 3px">1A</span>
+              .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">1A</span>
             .col-11
               p.ms-2.mb-2 Tecnológicas.
               p.ms-2.mb-2 Recursos logísticos.
               p.ms-2.mb-2 Talento humano.
               p.ms-2.mb-2 Recursos económicos.
               p.ms-2.mb-0 Capacitación.
-      .col-md-4(data-aos="zoom-in")
+      .col-lg-4.col-10.mb-lg-0.mb-4(data-aos="zoom-in")
         .BGI09.p-4
           .row.justify-content-center.mb-4
-            .col-md-4.col-6
+            .col-4
               img(src="@/assets/curso/tema1/img40.png")
           .BGR02.px-2.py-1.mb-4
             .h4.text-center.mb-0 Describe
           .row.mb-4
             .col-1
-              .h5 <span style="background-color:#6ACEAE; padding: 3px">2</span>
+              .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">2</span>
             .col-11
               p.ms-2.mb-0 Análisis orgnizacional global.
           .row
             .col-1
-              .h5 <span style="background-color:#6ACEAE; padding: 3px">2A</span>
+              .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">2A</span>
             .col-11
               p.ms-2.mb-2 Organigrama.
               p.ms-2.mb-2 Documentación.
               p.ms-2.mb-2 Misión.
               p.ms-2.mb-0 Visión.
               br
-      .col-md-4(data-aos="fade-left")
+      .col-lg-4.col-10(data-aos="fade-left")
         .BGI01.p-4
           .row.justify-content-center.mb-4
-            .col-md-4.col-6
+            .col-4
               img(src="@/assets/curso/tema1/img41.png")
           .BGR02.px-2.py-1.mb-4
             .h4.text-center.mb-0 Mitiga
           .row.mb-4
             .col-1
-              .h5 <span style="background-color:#6ACEAE; padding: 3px">3</span>
+              .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">3</span>
             .col-11
               p.ms-2.mb-0 Análisis orgnizacional global.
           .row
             .col-1
-              .h5 <span style="background-color:#6ACEAE; padding: 3px">3A</span>
+              .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">3A</span>
             .col-11
               p.ms-2.mb-2 Aplicación de estándares (Owasp).
               p.ms-2.mb-2 Ecosistemas tecnológicos.
