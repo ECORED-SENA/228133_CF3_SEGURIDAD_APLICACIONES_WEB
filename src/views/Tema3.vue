@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2
-        p Un ambiente de pruebas es un entorno recomendado que pretende emular, ojalá al 100%, el ecosistema tecnológico en el que funciona un aplicación en este caso una aplicación #[i web] que ya se encuentra en uso por parte de una organización.
+        p Un ambiente de pruebas es un entorno recomendado que pretende emular, ojalá al 100%, el ecosistema tecnológico en el que funciona una aplicación en este caso una aplicación #[i web] que ya se encuentra en uso por parte de una organización.
         p Es decir, ya se encuentra funcionando en un ambiente productivo, de ahí la necesidad de identificar claramente de ese entorno productivo los siguientes ítems para replicarlos en el entorno de pruebas: sistemas operativos, servidores de aplicaciones, sistemas de bases de datos, mecanismos de interoperabilidad con otras aplicaciones, entornos de red, documentación correspondiente a manuales técnicos y de usuario, marcos de trabajo (#[i frameworks]) y demás #[i software] necesario para ejecutar las pruebas; para cada uno de estos es imprescindible la identificación de sus versiones y realizar el seguimiento a posibles cambios y sus dependencias.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img01.png")
@@ -19,7 +19,7 @@
         .col-lg-1.col-sm-3.col-4.mb-lg-0.md-4(data-aos="fade-right")
           img.img07(src="@/assets/curso/tema3/img02.png")
         .col-md-11
-          p El entorno de pruebas recomendado para este tipo de plan que se va a realizar del lado servidor se basa en sistemas operativos de la familia Unix (Linux en diferentes versiones Cen tos, Red Hat, Ubuntu, FreeBSD o macOS) sin desconocer la necesidad de realizarlos en ambientes Windows, entre otros sistemas; el objetivo es ejecutar las pruebas sin temor a equivocarse para luego realizarlas en ambientes de producción.
+          p El entorno de pruebas recomendado para este tipo de plan que se va a realizar del lado servidor se basa en sistemas operativos de la familia Unix (Linux en diferentes versiones Centos, Red Hat, Ubuntu, FreeBSD o macOS) sin desconocer la necesidad de realizarlos en ambientes Windows, entre otros sistemas; el objetivo es ejecutar las pruebas sin temor a equivocarse para luego realizarlas en ambientes de producción.
           p.mb-0 A continuación se muestra un ejemplo de implementación de ambiente de pruebas recomendado que consta de cuatro pasos.
 
     TabsA.color-acento-contenido.mb-5
@@ -38,7 +38,7 @@
               .indicador--click(v-if="mostrarIndicador")
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Paso 2: buscar vulnerabilidades")
         h4 Buscar vulnerabilidades
-        p Una vez encontrados los servicios remotos con esta información se pueden utilizar las herramientas apropiadas para hallar los huecos de seguridad de esos servicios.
+        p Una vez encontrados los servicios remotos con esta información, se pueden utilizar las herramientas apropiadas para hallar los huecos de seguridad de esos servicios.
         .row.justify-content-center
           .col-lg-6.col-10.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img04.png")
@@ -57,7 +57,7 @@
                   span Ver más
                   .indicador--click(v-if="mostrarIndicador")
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Paso 4: probar en entornos legales")
-        h4 probar en entornos legales
+        h4 Probar en entornos legales
         .row.justify-content-center
           .col-lg-6.col-10.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img06.png")
@@ -94,16 +94,16 @@
         ul.lista-ul--color.ms-4
           li
             <i class="fas fa-check-circle" style="color:#6ACEAE"></i>
-            p Navegadores #[i web] Mozilla, Chrome etc.
+            p Navegadores #[i web] Mozilla, Chrome, etc.
           li
             <i class="fas fa-check-circle" style="color:#6ACEAE"></i>
             p Motores de búsqueda Bing, Google.
           li
             <i class="fas fa-check-circle" style="color:#6ACEAE"></i>
-            p Complemento HTTPS headers para Mozilla.
+            p Complemento HTTPS #[em headers] para Mozilla.
           li
             <i class="fas fa-check-circle" style="color:#6ACEAE"></i>
-            p Servidores de base de datos y su respectivos clientes , servidores de aplicaciones y balanceadores de carga de acuerdo con el análisis y el ambiente que se vaya a verificar.
+            p Servidores de base de datos y sus respectivos clientes, servidores de aplicaciones y balanceadores de carga de acuerdo con el análisis y el ambiente que se vaya a verificar.
 
     p.mb-5 Además, también se pueden utilizar las siguientes:
 
@@ -115,7 +115,7 @@
               figure.my-4
                 img(src="@/assets/curso/tema3/img08.png")
               .col-auto.BGR02
-                .h4.mx-4.mb-0 Openssl
+                .h4.mx-4.mb-0 OpenSSL
             .row.justify-content-center.BGI10.p-4
               p.mb-5.text-white Verifica certificados digitales y demás métodos de encriptamiento de información.
           .BG02.mx-2
@@ -125,7 +125,7 @@
               .col-auto.BGR02
                 .h4.mx-4.mb-0 Zed Attack Proxy 
             .row.justify-content-center.BGI06.p-4
-              p.mb-4 Herramienta de pentesting que ayuda a encontrar vulnerabilidades en nuestras aplicaciones. 
+              p.mb-4 Herramienta de #[em pentesting] que ayuda a encontrar vulnerabilidades en nuestras aplicaciones. 
           .BG02.mx-2
             .row.justify-content-center.BGI07.p-4
               .col-8
@@ -133,7 +133,7 @@
               .col-auto.BGR02
                 .h4.mx-4.mb-0 OWTF
             .row.justify-content-center.BGI10.p-4
-              p.mb-5.text-white Herramienta de pentesting que es, quizás, un poco más sencilla que la herramienta anterior.
+              p.mb-5.text-white Herramienta de #[em pentesting] que es, quizás, un poco más sencilla que la herramienta anterior.
           .BG02.mx-2
             .row.justify-content-center.BG12.p-4
               figure.my-3
@@ -165,7 +165,7 @@
             figure.mt-4
               img(src="@/assets/curso/tema3/img13.png")
           .col-8.BG09.p-4
-            .h4 Testlink
+            .h4 TestLink
             p.mb-4 Sistema de gestión de pruebas de #[i software] basado en la #[i web].
         .row.justify-content-center.p-2
           .col-4.BG04.p-4
@@ -194,7 +194,7 @@
               img(src="@/assets/curso/tema3/img17.png")
           .col-8.BG09.p-4
             .h4 Bugzilla 
-            p.mb-4 Sistema de seguimiento de defectos (Bug Tracking System).
+            p.mb-4 Sistema de seguimiento de defectos (#[em Bug Tracking System]).
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -209,8 +209,8 @@
             figure.mt-5
               img(src="@/assets/curso/tema3/img18.png")
           .col-8.BG01.p-4
-            .h4 Netdada 
-            p.mb-0 Es un #[i software] de monitorización gratuito y open source que permite supervisar todo tipo de KPI en tiempo real.
+            .h4 Netdata 
+            p.mb-0 Es un #[i software] de monitorización gratuito y #[em open source] que permite supervisar todo tipo de KPI en tiempo real.
         .row.justify-content-center.p-2.mb-4
           .col-4.BG06.p-4
             figure.mt-4

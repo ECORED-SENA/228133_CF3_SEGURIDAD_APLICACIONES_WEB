@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Construcción del plan de pruebas con Owasp orientado a aplicaciones <em>web</em>',
+      'Construcción del plan de pruebas con OWASP orientado a aplicaciones <em>web</em>',
     descripcionCurso:
-      'Para la construcción de un sistema de información por procesamiento electrónico de datos orientado a la <em>web</em> es muy importante implementar los mecanismos que brindan la seguridad de la aplicación, el presente componente tiene como objetivo elaborar un plan de pruebas de seguridad utilizando como metodología la Guía de referencia de pruebas de Owasp que pretende satisfacer los requerimientos de seguridad que se presentan.',
+      'Para la construcción de un sistema de información por procesamiento electrónico de datos orientado a la <em>web</em> es muy importante implementar los mecanismos que brindan la seguridad de la aplicación, el presente componente tiene como objetivo elaborar un plan de pruebas de seguridad utilizando como metodología la Guía de referencia de pruebas de OWASP que pretende satisfacer los requerimientos de seguridad que se presentan.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -193,7 +193,7 @@ export default {
     {
       tema: '1. Plan de Objetivos',
       referencia:
-        'Caballero, Q., A. E. (2019). Webinar gratuito: guía de pruebas de Owasp. [Video]. YouTube.',
+        'Caballero, Q., A. E. (2019). Webinar gratuito: guía de pruebas de OWASP. [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=kXfZqQY0rcg&ab_channel=AlonsoCaballero',
@@ -211,7 +211,7 @@ export default {
         'herramienta de línea de comandos que sirve para escribir y leer datos en la red.',
     },
     {
-      termino: 'Owasp',
+      termino: 'OWASP',
       significado: '<em>Open Web Application Security Project</em>.',
     },
     {
@@ -227,8 +227,8 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Amor. F. (2020). Introducción a Owasp.',
-      link: 'https://www.adictosaltrabajo.com/2016/03/07/introduccion-a-owasp/',
+      referencia: 'Amor. F. (2020). Introducción a OWASP.',
+      link: 'https://www.adictosaltrabajo.com/2016/03/07/introduccion-a-OWASP/',
     },
     {
       referencia:
@@ -237,13 +237,13 @@ export default {
     },
     {
       referencia:
-        'Diaz, M., y Marulanda, M. F. (2018). Proyecto de aplicación de Owasp.',
+        'Diaz, M., y Marulanda, M. F. (2018). Proyecto de aplicación de OWASP.',
       link:
         'https://repository.unad.edu.co/bitstream/handle/10596/20479/1060648494.pdf?sequence=3&isAllowed=y#page=57&zoom=100,148,204',
     },
     {
       referencia:
-        'Junta de Andalucía. (2019). Owasp Testing Project. Junta de Andalucía.',
+        'Junta de Andalucía. (2019). OWASP Testing Project. Junta de Andalucía.',
       link:
         'https://www.juntadeandalucia.es/servicios/madeja/contenido/recurso/553',
     },
@@ -367,9 +367,9 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
+        nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },

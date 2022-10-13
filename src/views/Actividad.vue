@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Conceptos básicos de pruebas de seguridad de aplicaciones web
-        p.mb-4 Afianzar los conocimientos para el proceso de pruebas de seguridad de aplicaciones #[i web] con Owasp.
+        p.mb-4 Afianzar los conocimientos para el proceso de pruebas de seguridad de aplicaciones #[i web] con OWASP.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

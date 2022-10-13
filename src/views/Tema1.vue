@@ -11,14 +11,14 @@
       .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img01.png")
       .col-md-8
-        p Es un documento que recoge un conjunto de tareas necesarias para la consecución de una acción u objetivo concreto. Antes de llevar a cabo la tarea de planificar un proyecto, es conveniente hacer un plan de actividades, en el cual se contemplará lo necesario que lleve a organizar las pruebas de seguridad de una aplicación #[i web] con base en la guía Owasp (#[i Open Web Application Security Project]).
+        p Es un documento que recoge un conjunto de tareas necesarias para la consecución de una acción u objetivo concreto. Antes de llevar a cabo la tarea de planificar un proyecto, es conveniente hacer un plan de actividades, en el cual se contemplará lo necesario que lleve a organizar las pruebas de seguridad de una aplicación #[i web] con base en la guía OWASP (#[i Open Web Application Security Project]).
         .row.mb-4
           .col-auto(data-aos="fade-left")
             a.anexo.mb-4.mb-lg-0(href="https://owasp.org/www-pdf-archive/Gu%C3%ADa_de_pruebas_de_OWASP_ver_3.0.pdf" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[strong Enlace #[i web]]. Clic conocer para conocer la Guía Owasp
+                p #[strong Enlace #[i web]]. Clic para conocer la Guía OWASP
         p.mb-0 Se recomienda para la elaboración del plan de actividades, la creación de un diagrama de Gantt el cual se compone de dos grandes partes de la siguiente manera: 
     
     .BGR01.p-4.mb-4(data-aos="zoom-in")
@@ -91,7 +91,7 @@
       .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img07.png")
       .col-md-8
-        p En este punto se deben plantear los objetivos generales a cumplir en el proyecto teniendo en cuenta que la guía Owasp comprende un gran número de componentes a los cuales se puede aplicar un proceso de análisis de vulnerabilidades como lo son por ejemplo, los componentes tipo API (interfaz de programación de aplicaciones) que normalmente se construyen bajo el concepto de #[i web services], de validación de datos de autorización y autenticación, de verificación y utilización de marcos en diferentes organizaciones, hasta llegar a la verificación de infraestructura, redes con sus configuraciones y talento humano.
+        p En este punto se deben plantear los objetivos generales a cumplir en el proyecto teniendo en cuenta que la guía OWASP comprende un gran número de componentes a los cuales se puede aplicar un proceso de análisis de vulnerabilidades como lo son por ejemplo, los componentes tipo API (interfaz de programación de aplicaciones) que normalmente se construyen bajo el concepto de #[i web services], de validación de datos de autorización y autenticación, de verificación y utilización de marcos en diferentes organizaciones, hasta llegar a la verificación de infraestructura, redes con sus configuraciones y talento humano.
     
     .BG01.p-4.mb-4
       .row.justify-content-center
@@ -116,7 +116,7 @@
           .col-10
             img.img01(src="@/assets/curso/tema1/img10.png")
         .row.justify-content-center.BGH07.img02.p-4(data-aos="fade-left")
-          p.mb-0 Establecer hacia quién va dirigido dicho análisis, entendiéndose que esas pruebas según la guía pueden estar orientadas a testers de #[i software] que son personas que trabajan en el marco de metodologías y pretenden dar cumplimiento a estándares de calidad unidos a una metodología en el marco del desarrollo de #[i software].
+          p.mb-0 Establecer hacia quién va dirigido dicho análisis, entendiéndose que esas pruebas según la guía pueden estar orientadas a #[em testers] de #[i software] que son personas que trabajan en el marco de metodologías y pretenden dar cumplimiento a estándares de calidad unidos a una metodología en el marco del desarrollo de #[i software].
 
     .row.mb-4(data-aos="fade-right")
       .col-auto.BG06.p-2
@@ -173,7 +173,7 @@
         img(src="@/assets/curso/tema1/img12.png")
 
     p La importancia de este análisis radica en la posibilidades de recomendar a futuro, o durante la ejecución del plan de pruebas, mecanismos, herramientas de #[i software], prácticas, personal necesario, estrategias, tecnologías de carácter libre o incluso de pago que ayuden en la consecución de los objetivos y que eliminen la existencia de brechas que antes no se han tenido en cuenta.
-    .h4.mb-5 El siguiente gráfico representa lo anteriormente mencionado.
+    .h4.mb-5 A continuación se representa lo anteriormente mencionado.
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -182,12 +182,7 @@
             .col-4
               img(src="@/assets/curso/tema1/img39.png")
           .BGR02.px-2.py-1.mb-4
-            .h4.text-center.mb-0 Lista
-          .row.mb-4
-            .col-1
-              .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">1</span>
-            .col-11
-              p.ms-2.mb-0 Facilidades
+            .h4.text-center.mb-0 1 Facilidades
           .row
             .col-1
               .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">1A</span>
@@ -203,12 +198,7 @@
             .col-4
               img(src="@/assets/curso/tema1/img40.png")
           .BGR02.px-2.py-1.mb-4
-            .h4.text-center.mb-0 Describe
-          .row.mb-4
-            .col-1
-              .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">2</span>
-            .col-11
-              p.ms-2.mb-0 Análisis orgnizacional global.
+            .h4.text-center.mb-0 2 Análisis orgnizacional global
           .row
             .col-1
               .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">2A</span>
@@ -224,17 +214,12 @@
             .col-4
               img(src="@/assets/curso/tema1/img41.png")
           .BGR02.px-2.py-1.mb-4
-            .h4.text-center.mb-0 Mitiga
-          .row.mb-4
-            .col-1
-              .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">3</span>
-            .col-11
-              p.ms-2.mb-0 Análisis orgnizacional global.
+            .h4.text-center.mb-0 3 Limitaciones
           .row
             .col-1
               .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">3A</span>
             .col-11
-              p.ms-2.mb-2 Aplicación de estándares (Owasp).
+              p.ms-2.mb-2 Aplicación de estándares (OWASP).
               p.ms-2.mb-2 Ecosistemas tecnológicos.
               p.ms-2.mb-2 Ambiente de desarrollo.
               p.ms-2.mb-2 Ambiente de pruebas.
@@ -245,7 +230,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3	Fijar las metas y objetivos particulares
     
-    p.mb-5 Para este apartado es importante definir que los objetivos serán guiados por la metodología Owasp y las metas a cumplir en este proceso son: <br><br>
+    p.mb-5 Para este apartado es importante definir que los objetivos serán guiados por la metodología OWASP y las metas a cumplir en este proceso son: <br><br>
 
     .row.justify-content-center.pt-5.mb-5
       .col-md-4.BG13.mb-md-0.mb-5(data-aos="fade-right")
@@ -253,19 +238,19 @@
           .col-10
             img.img01(src="@/assets/curso/tema1/img14.png")
         .row.justify-content-center.BGJ07.img09.p-4
-          p.mb-0 Aplicar el estándar Owasp y el manual de pruebas de #[i pentesting] propuesto para determinar el plan de pruebas que se aplicarán sobre el sistema con el enfoque de análisis de seguridad en las aplicaciones #[i web].
+          p.mb-0 Aplicar el estándar OWASP y el manual de pruebas de #[i pentesting] propuesto para determinar el plan de pruebas que se aplicarán sobre el sistema con el enfoque de análisis de seguridad en las aplicaciones #[i web].
       .col-md-4.BG13.mb-md-0.mb-5(data-aos="zoom-in")
         .row.justify-content-center.BG06
           .col-10
             img.img01(src="@/assets/curso/tema1/img15.png")
         .row.justify-content-center.BGJ01.img09.p-4
-          p.mb-0 Determinar las pruebas de la metodología Owasp de seguridad en aplicaciones #[i web] para los 10 casos de vulnerabilidades más conocidos y definidos en el punto de la estrategia de este proceso.
+          p.mb-0 Determinar las pruebas de la metodología OWASP de seguridad en aplicaciones #[i web] para los 10 casos de vulnerabilidades más conocidos y definidos en el punto de la estrategia de este proceso.
       .col-md-4.BG13(data-aos="fade-left")
         .row.justify-content-center.BG10
           .col-10
             img.img01(src="@/assets/curso/tema1/img16.png")
         .row.justify-content-center.BGJ07.img09.p-4
-          p.mb-5 Determinar los artefactos de pruebas a utilizar de acuerdo con la metodología Owasp de seguridad en aplicaciones #[i web].
+          p.mb-5 Determinar los artefactos de pruebas a utilizar de acuerdo con la metodología OWASP de seguridad en aplicaciones #[i web].
 
     .row.justify-content-center.mb-4
       .col-10
@@ -306,13 +291,13 @@
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6	Crear una estrategia
     
-    p El procedimiento mediante el cual se determina para este caso es el análisis de vulnerabilidades de una aplicación #[i web], y este corresponde a la verificación punto por punto de los 10 casos de ataques más comunes reportados por los informes que cada cierto tiempo destaca Owasp en dichos ambientes #[i web], los cuales son:
+    p El procedimiento mediante el cual se determina para este caso es el análisis de vulnerabilidades de una aplicación #[i web], y este corresponde a la verificación punto por punto de los 10 casos de ataques más comunes reportados por los informes que cada cierto tiempo destaca OWASP en dichos ambientes #[i web], los cuales son:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="BGR05")
-      .row.justify-content-center(titulo="Inyección (Injection)")
+      .row.justify-content-center(titulo="Inyección (<em>Injection</em>)")
         .col-md-8.order-md-1.order-2
           p Este ataque se produce cuando datos no confiables son enviados a un intérprete (ya sea del sistema operativo, de una base de datos o cualquier intérprete) como parte de un comando o consulta. 
-          p.mb-0 Los datos hóstiles introducidos por el atacante pueden engañar al intérprete haciendo que se ejecuten comandos no intencionados o accediendo a información sobre la que no se está autorizado. Uno de los ejemplos más significativos de este tipo de ataque es #[strong SQL Injection].
+          p.mb-0 Los datos hóstiles introducidos por el atacante pueden engañar al intérprete haciendo que se ejecuten comandos no intencionados o accediendo a información sobre la que no se está autorizado. Uno de los ejemplos más significativos de este tipo de ataque es #[strong SQL <em>Injection</em>].
         .col-md-3.col-10.order-md-2.order-1.mb-md-0.mb-4
           img(src="@/assets/curso/tema1/img21.png")
       .row.justify-content-center(titulo="Pérdida de autenticación y gestión de sesiones")
@@ -334,7 +319,7 @@
       .row.justify-content-center(titulo="Configuración de seguridad incorrecta")
         .col-md-8.order-md-1.order-2
           p Este tipo de ataque ocurre cuando se han realizado malas configuraciones en los servidores de las aplicaciones, en las bases de datos o en la configuración del propio sistema operativo. 
-          p.mb-0 Es importante tener todo el #[i software] actualizado con la última versión disponible y que todas las librerías o frameworks que use la aplicación también estén actualizadas.
+          p.mb-0 Es importante tener todo el #[i software] actualizado con la última versión disponible y que todas las librerías o #[em frameworks] que use la aplicación también estén actualizadas.
         .col-md-3.col-10.order-md-2.order-1.mb-md-0.mb-4
           img(src="@/assets/curso/tema1/img25.png")
       .row.justify-content-center(titulo="Exposición de datos sensibles ")
@@ -357,7 +342,7 @@
           img(src="@/assets/curso/tema1/img28.png")
       .row.justify-content-center(titulo="Utilización de componentes con vulnerabilidades conocidas")
         .col-md-8.order-md-1.order-2
-          p Este tipo de ataque ocurre cuando se emplean librerías o frameworks que contienen vulnerabilidades. 
+          p Este tipo de ataque ocurre cuando se emplean librerías o #[em frameworks] que contienen vulnerabilidades. 
           p.mb-0 Es por esto que es importante actualizar estos componentes o revisar el historial de revisiones para comprobar las mejoras de seguridad implementadas.
         .col-md-3.col-10.order-md-2.order-1.mb-md-0.mb-4
           img(src="@/assets/curso/tema1/img29.png")
@@ -436,7 +421,7 @@
               .col-auto.BGR02
                 .h4.mx-4.mb-0 Presupuesto
             .row.justify-content-center.BGK09.img05.p-4
-              p.mb-0 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y ¿cuáles son los fondos que se están invirtiendo en el plan?
+              p.mb-0 Es el valor del plan de pruebas, allí se deben tener en cuenta las siguientes preguntas: ¿cuánto es lo estimado para completar el alcance del plan? y ¿cuáles son los fondos que se están invirtiendo en el plan?.
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG06.mt-4
               .col-6.mb-4
@@ -445,7 +430,7 @@
               .col-auto.BGR02
                 .h4.mx-xl-4.mb-0.text-center Logro de los objetivos de negocio
             .row.justify-content-center.BGK11.img06.p-4
-              p.mb-0 Es la forma en que el proyecto funcionó comparando con los casos del negocio. Se debe dar respuesta a las siguientes preguntas: ¿se consiguieron los beneficios esperados (tanto tangibles como intangibles)? y ¿se obtuvo la ganancia esperada de acuerdo con la inversión (ROI - tasa de retorno de la inversión)?
+              p.mb-0 Es la forma en que el proyecto funcionó comparando con los casos del negocio. Se debe dar respuesta a las siguientes preguntas: ¿se consiguieron los beneficios esperados (tanto tangibles como intangibles)? y ¿se obtuvo la ganancia esperada de acuerdo con la inversión (ROI - tasa de retorno de la inversión)?.
           .BG02.pt-5.mx-2
             .row.justify-content-center.BG04.mt-4
               .col-6.mb-4
