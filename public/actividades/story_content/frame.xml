@@ -1303,16 +1303,16 @@
         <slidelink slideid="_player.6g8RcXIVtvA" displaytext="Nuevo Presentación de Microsoft PowerPoint" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.64rZcxwdqXa" displaytext="¿Qué significa la sigla Owasp?" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6GcNrKhHuYL" displaytext="Owasp es considerado como un:" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.64rZcxwdqXa" displaytext="¿Qué significa la sigla OWASP?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6GcNrKhHuYL" displaytext="OWASP es considerado como un:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5dJg7QfsaCi" displaytext="¿Cuál sigla está asociada al concepto de secuencia de comandos en sitios cruzados?" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6pgX1xZSymS" displaytext="¿Qué es SQL Injection?" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5xwlqv81Hdx" displaytext="Seleccione el tipo de artefacto para el proceso de recopilación de información de los recursos relacionados con la aplicación web." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5vMRJaK2Y1n" displaytext="Seleccione el tipo de artefacto que permite conocer cómo funciona la aplicación web." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.63sXm9ZZLRo" displaytext="Seleccione el tipo de artefacto que permite saber el tipo exacto y versión del servidor web." expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5hCXfLz34NP" displaytext="¿Para qué sirve Owasp-CM-003?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5hCXfLz34NP" displaytext="¿Para qué sirve OWASP-CM-003?" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6WULrOlRSXM" displaytext="Para Interfaces de administración de la infraestructura y de la aplicación, ¿usted qué artefacto recomendarla?" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6GE5dfCe83f" displaytext="Si desea proteger la transmisión de credenciales a través de un canal cifrado, ¿cuál artefacto Owasp utilizaría?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6GE5dfCe83f" displaytext="Si desea proteger la transmisión de credenciales a través de un canal cifrado, ¿cuál artefacto OWASP utilizaría?" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
