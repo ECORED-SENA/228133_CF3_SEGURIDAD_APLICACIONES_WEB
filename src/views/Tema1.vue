@@ -198,7 +198,7 @@
             .col-4
               img(src="@/assets/curso/tema1/img40.png")
           .BGR02.px-2.py-1.mb-4
-            .h4.text-center.mb-0 2 Análisis orgnizacional global
+            .h4.text-center.mb-0 2 Análisis organizacional global
           .row
             .col-1
               .h5 <span style="background-color:#6ACEAE; padding: 3px 6px 3px 6px">2A</span>

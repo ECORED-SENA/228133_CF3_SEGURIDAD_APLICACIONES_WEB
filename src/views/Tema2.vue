@@ -145,7 +145,7 @@
           .row.mb-4
             .col-auto.BG06.p-2
               .h3 Pruebas del receptor de escucha de la BD (OWASP-CM-002)
-              .h3.mb-0 Pruebas de gestión de configuración de la infraestructura (Owasp-CM-003)
+              .h3.mb-0 Pruebas de gestión de configuración de la infraestructura (OWASP-CM-003)
           p Para establecer la información relevante de las aplicaciones y medidas de seguridad que están siendo implementadas dentro de una máquina de prueba se ejecuta el siguiente comando en un entorno Linux: 
           p HEAD mipaginaweb.com para ftp comando ftp y para un balanceador de 	 carga el comando lbd mipaginaweb.com
           .row.mb-4

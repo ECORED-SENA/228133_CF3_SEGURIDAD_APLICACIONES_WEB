@@ -19,7 +19,7 @@
         .col-lg-1.col-sm-3.col-4.mb-lg-0.md-4(data-aos="fade-right")
           img.img07(src="@/assets/curso/tema3/img02.png")
         .col-md-11
-          p El entorno de pruebas recomendado para este tipo de plan que se va a realizar del lado servidor se basa en sistemas operativos de la familia Unix (Linux en diferentes versiones Centos, Red Hat, Ubuntu, FreeBSD o macOS) sin desconocer la necesidad de realizarlos en ambientes Windows, entre otros sistemas; el objetivo es ejecutar las pruebas sin temor a equivocarse para luego realizarlas en ambientes de producción.
+          p El entorno de pruebas recomendado para este tipo de plan que se va a realizar del lado servidor se basa en sistemas operativos de la familia Unix (Linux en diferentes versiones CentOS, Red Hat, Ubuntu, FreeBSD o macOS) sin desconocer la necesidad de realizarlos en ambientes Windows, entre otros sistemas; el objetivo es ejecutar las pruebas sin temor a equivocarse para luego realizarlas en ambientes de producción.
           p.mb-0 A continuación se muestra un ejemplo de implementación de ambiente de pruebas recomendado que consta de cuatro pasos.
 
     TabsA.color-acento-contenido.mb-5

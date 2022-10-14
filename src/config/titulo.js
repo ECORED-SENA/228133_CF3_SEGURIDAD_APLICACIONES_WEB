@@ -1,2 +1,2 @@
 module.exports =
-  'Construcción del plan de pruebas con Owasp orientado a aplicaciones web'
+  'Construcción del plan de pruebas con OWASP orientado a aplicaciones web'
